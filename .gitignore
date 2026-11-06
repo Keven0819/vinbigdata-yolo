@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and Archives (Large files)
+raw_data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# YOLO Runs and Weights
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Environment and Secrets
+.env
+kaggle.json
+
+# IDE / Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
